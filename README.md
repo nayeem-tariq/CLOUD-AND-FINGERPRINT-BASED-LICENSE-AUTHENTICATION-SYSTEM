@@ -1,8 +1,7 @@
 # CLOUD-AND-FINGERPRINT-BASED-LICENSE-AUTHENTICATION-SYSTEM
 
 ## Abstract
-Index Term: Fingerprint identification, Fingerprint verification, Wi-Fi technology, Google
-Firebase (Cloud)
+
 This project provides the design method of fingerprint based driving license authentication
 system. The system includes terminal fingerprint acquisition, fingerprint matching and
 verification process, wireless transmission, Google Firebase (Cloud). The current system
@@ -51,6 +50,7 @@ and provides high performance.
 
 
 ## EXISTING SYSTEM
+
 The present driving license checking system is not an efficient way for authenticating
 licenses because nowadays anyone can produce a counterfeit license easily and it's
 very difficult for traffic police to identify whether driving license is genuine or
@@ -66,6 +66,7 @@ Drawbacks of existing system
 • No record of previous violations committed by the driver.
 
 ## PROPOSED SYSTEM
+
 Our proposed system consists of Fingerprint module, Wi-Fi module, Microcontroller
 and Cloud (Real-time Database). Fingerprint module is used to realize fingerprint
 collecting. Wi-Fi module is used to send and receive data from the database. To
@@ -91,6 +92,7 @@ this field.
 • It avoids fraud & duplication.
 
 ## SYSTEM DESIGN
+
 The system includes: Fingerprint module, Microcontroller NodeMCU with in built
 Esp8266 Wi-Fi module, 20x4 LCD, Power supply and Google Firebase.
 4.1 BLOCK DIAGRAM
@@ -115,6 +117,7 @@ supply
 Google Firebase
 
 ## COMPONENT DESCRIPTION
+
 The hardware consists of following components:
 • LCD display.
 • Fingerprint Module.
@@ -725,8 +728,7 @@ from eq.(1)
 now td =5+1.4486 td =6.4486ms
 from eq..(2)
 C =1*6.4486/10.2 C=632.17μƒ
-Cloud and Fingerprint Based License Checking and Authentication System 2019
-DEPARTMENT OF ELECTRONICS AND COMMUNICATION 36
+
  But because of safety purpose we are using 2000μƒ capacitor.
 Fig. 5.4.4:- Image showing circuit of capacitive filter and output pulse from capacitor filter
 Voltage across capacitor:-
@@ -881,10 +883,8 @@ NodeMCU and NodeMCU will start communicating with Google Firebase.
 Cloud and Fingerprint Based License Checking and Authentication System 2019
 DEPARTMENT OF ELECTRONICS AND COMMUNICATION 46
 8. Now click on Database, and then click on Plus sign to license details.
-Cloud and Fingerprint Based License Checking and Authentication System 2019
-DEPARTMENT OF ELECTRONICS AND COMMUNICATION 47
-CHAPTER 7
-WORKING OPERATION
+
+## WORKING OPERATION
 The working of this project is very simple. This project consists of a Fingerprint
 module, Microcontroller NodeMCU with inbuilt Esp8266 Wi-Fi module, 20x4 LCD,
 Power supply and Google Firebase. The main functional unit of this project is
@@ -932,9 +932,8 @@ Print information
 on LCD
 Close socket
 End
-Cloud and Fingerprint Based License Checking and Authentication System 2019
-DEPARTMENT OF ELECTRONICS AND COMMUNICATION 49
-#Conclusion
+
+## Conclusion
 Automated fingerprint identification systems is been successfully used around the
 globe for various application like law-enforcement, passport and adhar etc.., and new
 Fingerprint matching applications are emerging day by day. The fingerprint is and

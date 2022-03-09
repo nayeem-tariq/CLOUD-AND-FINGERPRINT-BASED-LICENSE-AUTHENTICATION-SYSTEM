@@ -1,13 +1,23 @@
 # CLOUD-AND-FINGERPRINT-BASED-LICENSE-AUTHENTICATION-SYSTEM
 
+## Abstract
+Index Term: Fingerprint identification, Fingerprint verification, Wi-Fi technology, Google
+Firebase (Cloud)
+This project provides the design method of fingerprint based driving license authentication
+system. The system includes terminal fingerprint acquisition, fingerprint matching and
+verification process, wireless transmission, Google Firebase (Cloud). The current system
+involves manual verification of license which is difficult to monitor. The issues of forgery of
+licenses by some people are a serious issue from the security point of view. The issues
+regarding the fake identity have been raised. In order to overcome such problems and to
+achieve the simple and high real-time system, we are proposing a low-cost and highperformance wireless driving license verification function, which provides a new wireless
+driving license system which will be helpful for traffic police and RTOs.
 
 
 
 
 
 
-
-# INTRODUCTION
+## INTRODUCTION
 
 To start with the project, it is essential to know the requirements and scope of the
 project. For a country which ranks second in the global population, keeping the track
@@ -40,7 +50,7 @@ achieves license verification by fingerprint identification. It is low-cost, low
 and provides high performance.
 
 
-#EXISTING SYSTEM
+## EXISTING SYSTEM
 The present driving license checking system is not an efficient way for authenticating
 licenses because nowadays anyone can produce a counterfeit license easily and it's
 very difficult for traffic police to identify whether driving license is genuine or
@@ -55,7 +65,7 @@ Drawbacks of existing system
 • Lack of security.
 • No record of previous violations committed by the driver.
 
-#PROPOSED SYSTEM
+## PROPOSED SYSTEM
 Our proposed system consists of Fingerprint module, Wi-Fi module, Microcontroller
 and Cloud (Real-time Database). Fingerprint module is used to realize fingerprint
 collecting. Wi-Fi module is used to send and receive data from the database. To
@@ -80,7 +90,7 @@ compared to other biometric system and R&D investments are very robust in
 this field.
 • It avoids fraud & duplication.
 
-#SYSTEM DESIGN
+## SYSTEM DESIGN
 The system includes: Fingerprint module, Microcontroller NodeMCU with in built
 Esp8266 Wi-Fi module, 20x4 LCD, Power supply and Google Firebase.
 4.1 BLOCK DIAGRAM
@@ -104,7 +114,7 @@ Power
 supply
 Google Firebase
 
-#COMPONENT DESCRIPTION
+## COMPONENT DESCRIPTION
 The hardware consists of following components:
 • LCD display.
 • Fingerprint Module.

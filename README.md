@@ -7,8 +7,9 @@
 
 
 
-#INTRODUCTION
- To start with the project, it is essential to know the requirements and scope of the
+# INTRODUCTION
+
+To start with the project, it is essential to know the requirements and scope of the
 project. For a country which ranks second in the global population, keeping the track
 of each person is very essential. Developed countries like USA, UK, and other
 developed countries, have implemented 24 hours traffic surveillance but the cost
